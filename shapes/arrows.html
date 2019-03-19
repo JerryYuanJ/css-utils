@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Arrows</title>
+  <style>
+
+    .arrow-box{
+      margin: 100px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .to-right {
+      height: 20px;
+      width: 20px;
+      border-width: 5px 5px 0 0;
+      border-color: black;
+      border-style: solid;
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+    }
+
+    .to-left {
+      height: 20px;
+      width: 20px;
+      border-width: 5px 0 0 5px;
+      border-color: black;
+      border-style: solid;
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+    }
+
+    .to-top {
+      height: 20px;
+      width: 20px;
+      border-width: 5px 0 0 5px;
+      border-color: black;
+      border-style: solid;
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+    }
+
+    .to-bottom {
+      height: 20px;
+      width: 20px;
+      border-width: 5px 5px 0 0;
+      border-color: black;
+      border-style: solid;
+      transform: rotate(135deg);
+      -webkit-transform: rotate(135deg);
+    }
+  </style>
+</head>
+<body>
+    <div class="arrow-box">
+        <div class="to-right"></div>
+        <div class="to-left"></div>
+        <div class="to-top"></div>
+        <div class="to-bottom"></div>
+    </div>
+</body>
+</html>
