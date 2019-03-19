@@ -1,6 +1,6 @@
 CSS UTILS
 ---
-[中文README](README_CH.md)
+[中文README](README_CN.md)
 
 
 What's this repo?
