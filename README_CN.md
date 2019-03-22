@@ -8,8 +8,8 @@ CSS UTILS
 目录
 ---
 - shapes
-  - arrows(up, down, left, right)
-  - close-button( x )
+  - arrows(up, down, left, right) [点击预览](https://jerryyuanj.github.io/demos/css/shape/arrows.html)
+  - close-button( x ) [点击预览](https://jerryyuanj.github.io/demos/css/shape/close-button.html)
 
 Help
 ---
