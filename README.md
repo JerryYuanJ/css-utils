@@ -10,8 +10,8 @@ This is a repo for those coders who's not good at CSS, for example: myself :no_m
 Table of content
 ---
 - shapes
-  - arrows(up, down, left, right)
-  - close-button( x )
+  - arrows(up, down, left, right) [click to preview](https://jerryyuanj.github.io/demos/css/shape/arrows.html)
+  - close-button( x ) [click to preview](https://jerryyuanj.github.io/demos/css/shape/close-button.html)
 
 Help me improve
 ---
