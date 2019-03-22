@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>底部弹出菜单</title>
+  <style>
+    /* simple reset */
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    button{
+      background-color: lightgreen;
+      padding: 10px 20px;
+      text-align: center;
+      border-radius: 5px;
+      margin: 10%;
+    }
+
+    .bottom-box{
+      background-color: lightgreen;
+      position: absolute;
+      left: 0;
+      bottom: -100%;
+      right: 0;
+    }
+
+    .show-menu{
+      animation-name: slide-from-bottom;
+      animation-duration: 0.5s;
+      animation-fill-mode: forwards;
+    }
+
+    .hide-menu{
+      animation-name: slide-to-bottom;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+    }
+
+    li {
+      list-style-type: none;
+      border-top: 1px solid #f0f0f0;
+      padding: 5px;
+      text-align: center;
+    }
+
+    @keyframes slide-from-bottom{
+      from {bottom: -100%}
+      to {bottom: 0}
+    }
+
+    @keyframes slide-to-bottom{
+      from {bottom: 0}
+      to {bottom: -100%}
+    }
+    
+  </style>
+</head>
+
+<body>
+
+  <button id="btn-1">弹出底部菜单</button>
+  <button id="btn-2">收起底部菜单</button>
+  
+  <div class="bottom-box">
+    <ul>
+      <li>转发</li>
+      <li>举报</li>
+      <li>删除</li>
+    </ul>
+  </div>
+
+</body>
+<script>
+  const showBtn = document.querySelector('#btn-1')
+  const hideBtn = document.querySelector('#btn-2')
+  const menu = document.querySelector('.bottom-box')
+  showBtn.onclick = function(){
+    menu.classList.add('show-menu')
+    menu.classList.remove('hide-menu')
+  }
+  hideBtn.onclick = function(){
+    menu.classList.remove('show-menu')
+    menu.classList.add('hide-menu')
+  }
+</script>
+</html>

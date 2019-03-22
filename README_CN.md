@@ -8,8 +8,10 @@ CSS UTILS
 目录
 ---
 - shapes
-  - arrows(up, down, left, right) [点击预览](https://jerryyuanj.github.io/demos/css/shape/arrows.html)
-  - close-button( x ) [点击预览](https://jerryyuanj.github.io/demos/css/shape/close-button.html)
+  - 箭头(up, down, left, right) [预览](https://jerryyuanj.github.io/demos/css/shape/arrows.html)
+  - 一个叉( x ) [预览](https://jerryyuanj.github.io/demos/css/shape/close-button.html)
+- animations
+  - 底部弹出菜单 [预览](https://jerryyuanj.github.io/demos/css/animation/bottom-menu-popup.html)
 
 Help
 ---
